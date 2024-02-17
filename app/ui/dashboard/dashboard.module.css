@@ -1,0 +1,17 @@
+.container{
+    display: flex;
+    position: relative;
+}
+
+.menu{
+    flex: 1;
+    background-color: var(--bgSoft);
+    padding: 20px;
+    height: 100vh;
+    position: sticky;
+    top: 0;
+}
+
+.content{
+    flex: 4;
+}

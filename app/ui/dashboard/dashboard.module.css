@@ -15,3 +15,29 @@
 .content{
     flex: 4;
 }
+
+.wrapper{
+    display: flex;
+    gap: 20px;
+}
+
+.main{
+    display: flex;
+    flex: 3;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.cards{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.side{
+    flex: 1;
+}
+
+.children{
+    padding: 20px;
+}

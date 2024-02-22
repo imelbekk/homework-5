@@ -13,5 +13,3 @@ export const fetchUsers = async (q:string) => {
     console.log(err);
   }
 };
-
-console.log(fetchUsers)

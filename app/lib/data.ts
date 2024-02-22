@@ -1,5 +1,4 @@
 import { User } from './models';
-// import { Product } from './models'; 
 import { connetToDB } from "./utils";
 
 export const fetchUsers = async (q:string) => {
